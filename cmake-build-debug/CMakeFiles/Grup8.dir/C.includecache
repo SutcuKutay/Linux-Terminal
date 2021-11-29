@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/hanakajan/Documents/GitHub/Grup-8/main.c
+/home/irem/Documents/GitHub/Grup-8/main.c
 stdio.h
 -
 unistd.h
