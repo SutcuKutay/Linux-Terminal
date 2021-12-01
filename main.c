@@ -2,8 +2,8 @@
 #include <unistd.h>//for fork
 #include <stdlib.h>
 #include <string.h>//for strlen
-#include <sys/types.h>
-#include <sys/wait.h>
+#include <sys/types.h>//waitpid fonksiyonu
+#include <sys/wait.h>//waitpid fonksiyonu
 
 int main()
 {
@@ -12,11 +12,11 @@ int main()
 	char yol[100000];
 	int pidler[5];
 	int sayac = 0;
-	getcwd(yol, sizeof(yol));
+	getcwd(yol, sizeof(yol));//dosya yolunu dondurur
 	while(1){
-		printf("\x1b[31m" "sau:" "\x1b[0m" "\x1b[32m" "%s > " "\x1b[0m", yol);
-		fgets(komut, sizeof(komut), stdin);
-		komut[strlen(komut) - 1] = '\0';
+		printf("\x1b[31m" "sau:" "\x1b[0m" "\x1b[32m" "%s > " "\x1b[0m", yol);//prompt kısmı
+		fgets(komut, sizeof(komut), stdin);//girilen string ifadeyi cekme
+		komut[strlen(komut) - 1] = '\0';//string ifadenin sonundaki bosluk karakterini silme
 		komutlar[0]=strtok(komut," ");
 		for(int i = 1; i < 10; i++){
 			komutlar[i]=strtok(NULL," ");
