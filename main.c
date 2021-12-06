@@ -14,7 +14,7 @@ int main()
 	int sayac = 0;
 	getcwd(yol, sizeof(yol));//dosya yolunu dondurur
 	while(1){
-		printf("\x1b[31m" "sau:" "\x1b[0m" "\x1b[32m" "%s > " "\x1b[0m", yol);//prompt kısmı
+		printf("\x1b[31m" "%s: " "\x1b[0m" "\x1b[32m" "sau > " "\x1b[0m", yol);//prompt kısmı
 		fgets(komut, sizeof(komut), stdin);//girilen string ifadeyi cekme
 		komut[strlen(komut) - 1] = '\0';//string ifadenin sonundaki bosluk karakterini silme
 		komutlar[0]=strtok(komut," ");
@@ -34,15 +34,15 @@ int main()
 				printf("%d\n",pidler[i]);
 			}
 		}
-		else{ //dosya calistirma
+		else{
 			int pid = fork();
 			if(pid==0){
 				execvp(komutlar[0],komutlar);
-				fprintf(stderr, "Hata.\n");
+				fprintf(stderr, "Hata: Komut icra edilemiyor.\n");
 				return 1;
 			}
 			else if(pid<0){
-				fprintf(stderr, "Hata.\n");
+				fprintf(stderr, "Hata: Komut icra edilemiyor.\n");
 				return 1;
 			}
 			else{
@@ -50,7 +50,7 @@ int main()
 			}
 			pidler[sayac] = pid;
 			sayac++;
-			if(sayac>=6){
+			if(sayac>=5){ //son 5 process id'si yazilacagi icin 5'ten sonra sayaci sifirla.
 				sayac=0;
 			}
 		}
