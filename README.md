@@ -7,12 +7,6 @@ Emeği Geçenler:
 	
 	Hana Kajan
 	
-	İrem Nur Ustabaş
-	
-	Burak Berslan
-	
-	Şeyma Ertuğrul
-	
 	
 Dosyaların açıklamaları:
 
