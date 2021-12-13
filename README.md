@@ -7,6 +7,7 @@ Emeği Geçenler:
 	
 	Hana Kajan
 	
+	Diğerleri yardım etmedi, değerlendirmeyi buna göre yaparsınız.
 	
 Dosyaların açıklamaları:
 
