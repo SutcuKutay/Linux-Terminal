@@ -7,7 +7,11 @@ Emeği Geçenler:
 	
 	Hana Kajan
 	
-	Diğerleri yardım etmedi, değerlendirmeyi buna göre yaparsınız.
+	Burak Berslan Hizliok
+	
+	Seyma Ertugrul
+	
+	Irem Nurustabas
 	
 Dosyaların açıklamaları:
 
