@@ -4,7 +4,6 @@ Proje Açıklaması:
 
 	Bu, Sakarya Üniversitesi Bilgisayar Mühendisliği İşletim Sistemleri dersinin projesidir.
 	Linux işletim sisteminde çalışan, belirli kodları çalıştıran bir terminali C dilini kullanarak yazdık.
-	Grup-8 ismi, grubumuzun ismidir.
 
 Emeği Geçenler:
 
