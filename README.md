@@ -1,5 +1,7 @@
-# isletim-sistemleri-projesi
+# Linux Terminal Yapımı
 Bu, Sakarya Üniversitesi Bilgisayar Mühendisliği İşletim Sistemleri dersinin projesidir.
+Linux işletim sisteminde çalışan, belirli kodları çalıştıran bir terminali C dilini kullanarak yazdık.
+Özetle: Kendi terminalimizi yazdık.
 
 Emeği Geçenler:
 
@@ -7,7 +9,6 @@ Emeği Geçenler:
 	
 	Hana Kajan
 	
-	Diğerleri yardım etmedi, değerlendirmeyi ona göre yaparsınız.
 	
 	
 Dosyaların açıklamaları:
@@ -30,10 +31,6 @@ Derleme:
 
 	main.c'nin bulunduğu konumda terminal açılır. Projeyi çalıştırmak için terminale sadece "make" yazmak yeterlidir.
 	
-
-Karşılaşılan zorluklar:
-
-	Doğruyu söylemek gerekirse her adımda zorlandık. Ama birlikte el ele verip bu zorlukların üstesinden geldik.
 	
 	
 Yardımcı Kaynaklar:
